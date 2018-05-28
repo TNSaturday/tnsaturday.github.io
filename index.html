@@ -11,8 +11,10 @@
 <body>
     <div class="container">
         <header class="header">
-            <img src="img/logo.png" alt="Logo" class="logo">
-
+            <a href="index.html">
+                <img src="img/logo.png" alt="Logo" class="logo">
+            </a>
+            
             <form action="#" class="search">
                 <input type="text" class="search__input" id="search__input" placeholder="Поиск">
                 <button class="search__button" id="search__button">
@@ -22,15 +24,15 @@
                 </button>
             </form>
 
-            <div class="likes">
-                <!-- <div class="likes__field">
+            <!-- <div class="likes">
+                <div class="likes__field">
                     <svg class="likes__icon">
                         <use xlink:href="img/sprite.svg#icon-heart"></use>
                     </svg>
-                </div> -->
+                </div>
 
                 <div class="likes__panel">
-                    <!-- <ul class="likes__list">
+                    <ul class="likes__list">
                         <li>
                             <a href="#1721264584" class="likes__link">
                                 <figure class="likes__fig">
@@ -42,13 +44,13 @@
                                 </div>
                             </a>
                         </li>
-                    </ul> -->
+                    </ul>
                 </div>
-            </div>
+            </div> -->
         </header>
 
         <div class="content">
-            <div class="start-page">
+            <div class="main">
                 <div class="jumbotron">
                     <div>
                         <h1 class="jumbotron__header jumbotron__header--main"> Стильно, Модно, Недорого</h1>
@@ -79,7 +81,7 @@
                                 <div class="brands__num">
                                     <p class="brands__num">345 <span>товара</span></p>
                                 </div>
-                                <button class="btn-inline ">До -70%</button>
+                                <button class="btn-inline">До -70%</button>
                             </div> 
                         </a> 
                     </li>
@@ -97,9 +99,9 @@
                         </a> 
                     </li>
                     <li class="brands__box">
-                        <a href="#h&m" class="brands__card">
+                        <a href="#oodji" class="brands__card">
                             <div class="brands__top">
-                                    <img src="img/hm__logo.png" alt="h&m Logo">
+                                <img src="img/oodji_logo.png" alt="Oodji Logo">
                             </div>
                             <div class="brands__bottom">
                                 <div class="brands__num">
@@ -110,7 +112,7 @@
                         </a> 
                     </li>
                     <li class="brands__box">
-                        <a href="#loverepublic" class="brands__card">
+                        <a href="#love%republic" class="brands__card">
                             <div class="brands__top">
                                     <img src="img/love_republic_logo.png" alt="Love Republick Logo">
                             </div>
@@ -125,7 +127,7 @@
                 </ul>
                     <!-- <a href="#" class="item__url">Посмотреть все</a> --> 
             </div>
-            <div class="after-search">
+            <div class="results-page">
                     <!-- <div class="page404">
                     </div> -->
                     <div class="results">
@@ -167,7 +169,13 @@
                             <figure class="view__fig">
                                 <img src="img/image-1.jpg" alt="Платье" class="view__img">
                             </figure>
+                            <div class="close-btn">
+                                <svg class="close-btn__icon">
+                                    <use href="img/sprite.svg#icon-close"></use>
+                                </svg>
+                            </div>
                         </div>
+                        
                         <div class="item">
                             <div class="item__header">
                                 <h2 class="item__brand">Befree</h2>
@@ -203,31 +211,33 @@
             </div>
             
         </div>
+
         <footer class="footer">
             <div>
                 <ul class="social-navigation">
                     <li class="social-navigation__item">
-                        <a href="#" class="social-navigation-link">
+                        <a href="https://vk.com/public166920750" class="social-navigation-link">
                             <svg class="social-navigation__icon">
                                 <use xlink:href="img/sprite.svg#icon-vk"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="social-navigation__item">
-                        <a href="#" class="social-navigation-link">
+                        <a href="https://www.facebook.com/groups/1001sales" class="social-navigation-link">
                             <svg class="social-navigation__icon">
                                 <use xlink:href="img/sprite.svg#icon-facebook"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="social-navigation__item">
-                        <a href="#" class="social-navigation-link">
+                        <a href="https://www.instagram.com/1001sales/" class="social-navigation-link">
                             <svg class="social-navigation__icon">
                                 <use xlink:href="img/sprite.svg#icon-instagram"></use>
                             </svg>
                         </a>
                     </li>
                 </ul>
+                <!-- Built by Marina Kovalyova for the Jonas Schmedtmann online course Advanced CSS and Sass. Copiright © by Jonas Schmedtmann. You 100% allowed to use this webpage for both personal and commercial use, but NOT not to claim it as ypur own design. A credit to the original author, Jonas Schmedtmann, is of course highly appriciated! -->
             </div>
             <div class="footer__bottom">
                 <!-- <ul class="footer__list">
